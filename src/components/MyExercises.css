@@ -1,0 +1,50 @@
+.myExercises h2{
+    color:#ff2526;
+    text-align: center;
+    margin: 10px;
+    padding:10px
+}
+.myExercises{
+    
+    /* display: flex; */
+    /* border: 1px solid blue; */
+}
+.my-exercise-comp{
+    /* border: 10px solid red; */
+    /* width: 320px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-left: 20px; */
+}
+.my-exercise-comp img{
+width: 320px;
+}
+.exercise-card{
+    width: 320px;
+/* display: flex; */
+/* margin: 200px; */
+/* width:215px; */
+}
+
+.add-btn{
+    /* margin: 280px 590px; */
+    width: 280px;
+    font-weight: 400;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        padding: 10px 15px;
+        text-decoration: none;
+        margin: 5px 0px 7px;
+        z-index: 1;
+        text-align: center;
+        background-color:#ff2525ed;
+}
+.add-btn:hover{
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    color: #000;
+    /* border-radius: 0px; */
+}

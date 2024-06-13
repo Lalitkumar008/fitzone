@@ -1,0 +1,50 @@
+<form action="#" className="register-form">
+        <PersonIcon id="person" />
+        <EmailIcon id="email-r" />
+        <KeyIcon id="password-r" />
+        <PhoneIcon id="phone-r" />
+        <input
+          type="text"
+          placeholder="name"
+          name="name"
+          value={user.name}
+          onChange={handleChange}
+        />
+
+        <input
+          type="email"
+          placeholder="email"
+          name="email"
+          value={user.email}
+          onChange={handleChange}
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="password"
+          value={user.password}
+          onChange={handleChange}
+        />
+        <input
+          type="number"
+          name="contactNo"
+          placeholder="contact No"
+          value={user.contactNo}
+          onChange={handleChange}
+        />
+        <button style={{ color: "#fff" }} type="submit" onClick={handleSubmit}>
+          Sign up
+        </button>
+      </form>
+
+
+
+        <button
+          style={{
+            height: "30px",
+            width: "69px",
+            border: "1px solid #fff",
+            borderRadius: "10px",
+            margin: "15px 0 0",
+          }}
+        >

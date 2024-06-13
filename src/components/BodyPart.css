@@ -1,0 +1,10 @@
+.bodyPart-card {
+    margin: 0 10px;
+    height: auto;
+    transform: scale(1.0, 1.01);
+    transition: 0.3s all ease-in-out;
+}
+
+.bodyPart-card:hover {
+    border: 2px solid #de4f61;
+}

@@ -1,0 +1,95 @@
+.navbar {
+/* position: fixed;
+top: 0px;
+z-index: 100; */
+width: 100%;
+    background-color: #000000f1;
+    /* border-bottom:5px solid #000; */
+    /* color:#000; */
+    padding: 0px 2px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    min-height: 43px;
+}
+
+.link-menu {
+    color: #ccc;
+border-bottom: 1px solid red;
+border-bottom-width: 0px;
+}
+
+.link-menu:hover {
+    border-radius: 4px;
+    text-decoration: underline;
+    color: #de4f61;
+    /* background-color: #000; */
+    /* border-bottom: 1px solid red; */
+ 
+
+}
+.sign-in-btn {
+    font-weight: 400;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin: 5px 0px 7px;
+    z-index: 1;
+    text-align: center;
+}
+
+.sign-in-btn:hover {
+    background-color: #ff2526;
+    /* color: #000; */
+}
+.modals{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    color: #fff;
+    background-color: #ff2526;
+    width: 300px;
+    height: 300px;
+    /* z-index: 10; */
+}
+.drop-down{
+    color: #fff;
+    background-color: transparent!important;
+    margin-right:10px;
+    position: absolute;
+    top: 8px;
+    margin: 5px 10px;
+    right: 100px;
+}
+.drop-down button{
+    background-color: #ff2526;
+}
+.drop-down button:hover{
+    cursor: pointer;
+    background-color: #ff2526;
+}
+
+.drop-down ul li{
+    list-style: none;
+    border-bottom: 1px solid red;
+    padding: 5px;
+    
+}
+.drop-down-ul li:hover{
+    background-color: red;
+    /* color: #ff2526; */
+}
+.drop-down ul{
+    position: absolute;
+    top: 18px;
+    left: 50px;
+    z-index: 10;
+    width: 150px;
+}
+
+#username{
+    color: #ff2526;
+}

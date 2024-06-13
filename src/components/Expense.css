@@ -1,0 +1,53 @@
+.expense{
+    text-align: center;
+    border: 2px solid red;
+    /* margin-bottom: 250px; */
+    padding: 100px;
+    height: 100vh;
+    /* width: 100vb; */
+
+}
+
+.expense>input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.expense>button{
+    /* width: 280px; */
+        font-weight: 400;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        padding: 10px 15px;
+        text-decoration: none;
+        margin: 5px 0px 7px;
+        z-index: 1;
+        text-align: center;
+        background-color: #ff2525ed;
+}
+.expense ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    
+}
+
+.expense-list{
+    
+    padding: 10px;
+}
+.expense-list ul li{
+    list-style: none;
+    padding: 8px ;
+    /* border: 1px solid red; */
+    
+}
+
+#expense-img{
+    /* z-index: -1; */
+    /* width: 100vh; */
+    /* position: absolute; */
+}
